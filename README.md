@@ -75,9 +75,17 @@ By the end of this course, I aim to:
 
 ---
 
-## 📌 Disclaimer
+---
 
-This repository reflects my personal learning journey while following the **SuperSimpleDev HTML & CSS Full Course**.
+## 📝 Note on Exercises
+
+The SuperSimpleDev course includes **100+ practice exercises** designed to reinforce each concept.
+
+Due to personal time constraints, I have **not included every single exercise** from the course in this repository. Instead, I focused on implementing the exercises and examples that I found most challenging or valuable for strengthening my understanding.
+
+Although this repository does not contain every exercise, it accurately reflects my learning progress and the concepts I practiced throughout the course. I may revisit the course in the future and add more exercises as I continue improving my web development skills.
+
+---
 
 The code is written for learning purposes, so it may not always represent production-ready practices. As I continue learning, I may revisit and improve earlier exercises.
 
