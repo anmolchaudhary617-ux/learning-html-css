@@ -2,7 +2,7 @@
 
 This repository documents my hands-on journey of learning **HTML and CSS** by following the **HTML & CSS Full Course** by **SuperSimpleDev**.
 
-The course is designed to take learners from **beginner to professional level**, covering the fundamentals of modern web development and culminating in building a complete **YouTube homepage clone**.
+The course is designed to take learners from **beginner to professional level**, covering the fundamentals of modern web development and being ready to build a complete **YouTube homepage clone**.
 
 > **Note:** This repository is not intended to be a polished project or a production-ready website. Instead, it serves as a structured collection of practice exercises, experiments, and code written while progressing through the course.
 
