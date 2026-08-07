@@ -1,26 +1,25 @@
 p {
   display: inline-block;
+  font-family: Roboto;
+  font-size: 12px;
 }
 
-.text1{
-  margin-left: 170px;
+.google-search {
+  text-align: center;
 }
 
 .logo {
         width: 200px;
         height: 60px;
-        display: block;
         object-fit: cover;  
         margin-top: 70px;
         margin-bottom: 10px;
-        margin-left: 200px;
       }
 
       .searchbox {
         width: 300px;
         text-align: left;
         padding: 5px 10px;
-        margin-left: 140px;
         border-radius: 30px;
         box-shadow: 1px 3px 3px rgba(0,0,0,0.15);
         border: none;
