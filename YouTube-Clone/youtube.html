@@ -21,8 +21,7 @@
     }
 
 
-    .video1,
-    .video2 {
+    .video {
       display: inline-block;
     }
   </style>
@@ -30,10 +29,14 @@
 
 <body>
   <input type="text" class="searchbox" placeholder="Search">
-  <div class="video1">
+  <div class="video">
     <div class="video-img"> <img src="thumbnails/thumbnail-1.png" class="thumbnail"> </div>
     <div class="video-description">
-      <p class="video-title">
+      <div class="channel-author">
+        <img class="author" src="profilepictures/channel-1.jpeg" alt="channel-author">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
         Talking Tech and AI with Google CEO Sundar Pichai!
       </p>
       <p class="video-author">
@@ -42,10 +45,11 @@
       <p class="video-stats">
         3.4 million views &middot; 6 months ago
       </p>
+      </div>
     </div>
   </div>
 
-  <div class="video2">
+  <div class="video">
     <img src="thumbnails/thumbnail-2.png" class="thumbnail">
     <p class="video-title">
       Try Not To Laugh Challenge #9
