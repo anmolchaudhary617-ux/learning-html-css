@@ -21,8 +21,9 @@ p {
 .mutual-freinds {
   font-size: 72%;
   margin-left: 5px;
-  margin-top: 3px;
+  margin-top: px;
   color: gray;
+  display: inline-block;
 }
 
 .profile-picture {
@@ -40,8 +41,16 @@ p {
   padding: 7px 14px;
   border-radius: 5px;
   color: white;
+  display: block;
 }
 
 .platform {
-  
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-top: 8px;
+  margin-left: 7.5px;
+  vertical-align: bottom;
+  display: inline-block;
 }
