@@ -5,7 +5,6 @@ p {
 
 .Pets {
   display: inline-block;
-  border: none;
   margin-left: 15px;
   margin-top: 100px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
@@ -18,10 +17,9 @@ p {
   margin-top: 5px;
 }
 
-.mutual-freinds {
+.mutual-friends {
   font-size: 72%;
   margin-left: 5px;
-  margin-top: px;
   color: gray;
   display: inline-block;
   vertical-align: middle;
@@ -42,7 +40,8 @@ p {
   padding: 7px 14px;
   border-radius: 5px;
   color: white;
-    display: block;
+  display: block;
+  cursor: pointer;
   }
 
 .platform {
@@ -54,8 +53,4 @@ p {
   margin-left: 7.5px;
   vertical-align: middle;
   display: inline-block;
-
-.mutual-freinds-row {
-  vertical-align: bottom;
-}
-}
+}  
