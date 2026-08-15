@@ -1,0 +1,63 @@
+p {
+  margin: 0;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.profile {
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+
+}
+
+.profile-name {
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  margin-top: 6px;
+  margin-left: 8px;
+}
+
+.dog-icon {
+  width: 23px;
+  height: 23px;
+  margin-top: 5px;
+  margin-left: 8px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.mutual-friends {
+  margin-left: 5px;
+  font-family: Roboto, Arial;
+  font-size: 0.8em;
+  color: rgb(100, 100, 100);
+}
+
+.mutual-friends-row {
+  display: grid;
+  grid-template-columns: 33px 1fr;
+  align-items: center;
+}
+
+.add-friend {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 8px;
+  background-color: rgb(34, 129, 224);
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
