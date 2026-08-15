@@ -12,8 +12,15 @@
       font-family: Roboto, Arial;
     }
 
+    .video-grid {
+      display: grid;
+      grid-template-columns: 346px 346px 346px;
+      column-gap: 13px;
+    }
+
     .thumbnail {
-      width: 254px;
+      width: 100%;
+      border-radius: 3%;
     }
 
     .searchbox {
@@ -35,8 +42,6 @@
     }
 
     .video-info {
-      display: inline-block;
-      width: 206px;
       margin-top: 10px;
     }
 
@@ -56,21 +61,22 @@
       margin-top: 10px;
     }
 
-    .video-stats {
-      margin-top: 4px;
+    .video-description {
+      display: grid;
+      grid-template-columns: 36px 1fr;
+      column-gap: 12px;
     }
 
-    .video {
-      display: inline-block;
-      width: 262px;
-      vertical-align: top;
+    .video-stats {
+      margin-top: 4px;
     }
   </style>
 </head>
 
 <body>
   <input type="text" class="searchbox" placeholder="Search">
-  <div class="video">
+  <div class="video-grid">
+    <div class="video">
     <div class="video-img"> <img src="thumbnails/thumbnail-1.png" class="thumbnail"> </div>
     <div class="video-description">
       <div class="channel-author">
@@ -108,6 +114,7 @@
         </p>
       </div>
     </div>
+  </div>
   </div>
 </body>
 
