@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.part1 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.part2 {
+  background-color: lightpink;
+  width: 75px;
+}
+
+body {
+  margin: 0;
+}
