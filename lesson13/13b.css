@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 300px;
+}
+
+.item1 {
+  width: 100px;
+  height: 60px;
+  background-color: lightpink;
+}
+
+.item2 {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.row1,
+.row2 {
+  display: block;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+p {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
