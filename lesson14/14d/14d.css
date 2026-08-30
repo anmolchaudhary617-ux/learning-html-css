@@ -1,0 +1,43 @@
+body {
+  height: 3000px;
+}
+
+p {
+  margin: 0;
+}
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background-color: yellowgreen;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-box {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  padding: 12px;
+  line-height: 32px;
+  width: 300px;
+  border-radius: 7px
+}
+
+.overlay-title {
+  font-weight: 600;
+  font-size: 22px;
+}
